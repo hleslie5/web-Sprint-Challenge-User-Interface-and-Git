@@ -28,6 +28,11 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+section nav p {
+    display: flex;
+    flex-direction: space evenly;
+}
+
 body {
 	line-height: 1;
 }
@@ -46,7 +51,11 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+}
 * {
     box-sizing: border-box;
 }
